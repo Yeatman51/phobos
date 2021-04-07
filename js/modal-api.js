@@ -34,6 +34,8 @@ function clickOutside(e){
     
 }
 
+
+// api 
 const url = "https://api.nasa.gov/planetary/apod?api_key=";
 const api_key = "XNujlaqZTxrTScokTMsEaL5Hc3Zelz9ROZiuRGHQ";
 
