@@ -16,4 +16,4 @@ const fetchMARSData = async () => {
     }
   }
 
-  fetchMARSData()
+//   fetchMARSData()
