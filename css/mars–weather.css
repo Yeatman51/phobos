@@ -1,0 +1,16 @@
+.weather-container{
+   background-color: #ffffff10;
+   backdrop-filter: blur(12px);
+   -webkit-backdrop-filter: blur(12px);
+   position: absolute;
+   top: 327px;
+   min-width: 75vw;
+   max-width: 85vw;
+   height: 15vh;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+}

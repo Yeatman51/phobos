@@ -27,15 +27,26 @@ body {
     background-size: cover;
 }
 
+.mars-top-container{
+   position: relative;
+   text-align: center;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+}
+
 .title-text {
-    text-align: center;
+   text-align: center;
+    position: absolute;
     margin-top: 25px;
     font-size: 45px;
 }
 
 .background {
-    top: -70px;
-    position: relative;
+    /* top: -70px;
+    position: relative; */
     z-index: -1;
 }
 
@@ -45,7 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -50px;
+    margin-top: 15px;
 }
 
 .button {
