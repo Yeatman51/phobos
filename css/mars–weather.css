@@ -3,10 +3,11 @@
    backdrop-filter: blur(12px);
    -webkit-backdrop-filter: blur(12px);
    position: absolute;
-   top: 327px;
+   top: 35vw;
    min-width: 75vw;
    max-width: 85vw;
    height: 15vh;
+   border-radius: 3vw;
    margin: auto;
    display: flex;
    flex-direction: column;
