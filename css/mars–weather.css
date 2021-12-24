@@ -1,3 +1,8 @@
+.weather-title{
+   position: absolute;
+   top: 22vw;
+}
+
 .weather-container{
    background-color: #ffffff10;
    backdrop-filter: blur(12px);
@@ -14,4 +19,31 @@
    justify-content: center;
    align-items: center;
    z-index: 2;
+}
+
+.weather-section{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin: 5vw 5vw 5vw 5vw;
+}
+
+.weather-container-sol{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin: 5vw 5vw 5vw 5vw;
+}
+
+.weather-container-timp{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin: 5vw 5vw 5vw 5vw;
 }
